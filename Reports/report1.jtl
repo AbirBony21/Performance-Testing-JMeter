@@ -1,0 +1,15 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1738276939379,1344,Login,200,OK,Thread Group 1-1,text,true,,4924,537,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/auth/login,1341,0,1019
+1738276950247,634,Validate,200,OK,Thread Group 1-1,text,true,,6925,1451,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/auth/login,315,0,0
+1738276950247,315,Validate-0,302,Found,Thread Group 1-1,text,true,,1956,819,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/auth/validate,315,0,0
+1738276950563,318,Validate-1,200,OK,Thread Group 1-1,text,true,,4969,632,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/auth/login,318,0,0
+1738276964179,636,TimeModule,200,OK,Thread Group 1-1,text,true,,6803,1175,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/auth/login,315,0,0
+1738276964179,315,TimeModule-0,302,Found,Thread Group 1-1,text,true,,1956,592,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/time/viewTimeModule,315,0,0
+1738276964494,321,TimeModule-1,200,OK,Thread Group 1-1,text,true,,4847,583,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/auth/login,321,0,0
+1738276967563,628,LeaveModule,200,OK,Thread Group 1-1,text,true,,6781,1177,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/auth/login,307,0,0
+1738276967563,307,LeaveModule-0,302,Found,Thread Group 1-1,text,true,,1956,594,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveModule,307,0,0
+1738276967870,321,LeaveModule-1,200,OK,Thread Group 1-1,text,true,,4825,583,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/auth/login,321,0,0
+1738276975556,642,Logout,200,OK,Thread Group 1-1,text,true,,6787,1167,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/auth/login,322,0,0
+1738276975556,322,Logout-0,302,Found,Thread Group 1-1,text,true,,1956,584,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/auth/logout,322,0,0
+1738276975878,320,Logout-1,200,OK,Thread Group 1-1,text,true,,4831,583,1,1,https://opensource-demo.orangehrmlive.com/web/index.php/auth/login,320,0,0
+1738276939340,3884,Test,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-1,,true,,32220,5507,1,1,null,2600,32973,1019
